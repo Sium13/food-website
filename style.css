@@ -5,11 +5,12 @@ body{
 }
 section{
     display: flex;
-   
+    margin-bottom: 50px;
+  
 }
 h1{
     font-size:  40px;
-    margin-top: 90px ;
+    margin-top: 110px ;
     margin-bottom: 30px ;
     
 }
@@ -34,3 +35,116 @@ h1{
 #margin{
     margin-bottom: 50px;
 }
+#background{
+    background-image: url(images/shape7.png);
+    
+    height: 70%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+}
+.half-making{
+    width: 50%;
+   padding-left: 5%;
+   
+}
+.half-making img{
+    width: 60%;
+}
+#marginbottom{
+    margin-top: 100px;
+}
+#margintop{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.align{
+    text-align: center;
+}
+
+
+.recipie-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.items {
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.items h1 {
+    font-size: 25px;
+ 
+}
+.items p 
+{
+    font-size: 15px;
+  
+}
+
+.just-item img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+footer {
+    background-color: #0b0e17;
+    border: 5px solid #0b0e17;
+    margin-top: 50px;
+}
+
+.footer-talk p {
+    
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #5b5b5b;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-talk small{
+    margin-left: 35%;
+  margin-bottom: 20%;
+  text-align: center;
+    padding-bottom: 0px;
+    color: #5b5b5b;
+   
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+#email{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(orange,red);
+    color: white;
+    font-weight: 500;
+    margin-left: 43%;
+}
+
+#contact{
+    text-align: center;
+    color: rgb(124, 23, 70);
+}
+.guides{
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
+
+
